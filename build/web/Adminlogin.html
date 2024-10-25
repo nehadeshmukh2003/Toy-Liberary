@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                background-image: url('image/img9.jpg'); /* Replace with your image path */
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, sans-serif;
+                color: #fff; /* Text color */
+            }
+
+            h2 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: white; /* Change heading color to black */
+            }
+
+            form {
+                background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the form */
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+                width: 350px; /* Increased width of the form box */
+                text-align: left; /* Align text to the left */
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            input[type="text"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: none;
+                border-radius: 5px;
+                outline: none;
+            }
+
+            input[type="submit"] {
+                background-color: #4CAF50; /* Green background */
+                color: white; /* White text */
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            input[type="submit"]:hover {
+                background-color: #45a049; /* Darker green on hover */
+            }
+        </style>
+    </head>
+   <!DOCTYPE html>
+<html>
+    
+    <body>
+        <form action="Adminlogin.jsp" method="POST">
+            <h2>Admin Login</h2>
+            <label for="ANAME">Username</label>
+            <input type="text" id="ANAME" name="ANAME" required>
+            <label for="PASS">Password</label>
+            <input type="password" id="PASS" name="PASS" required>
+            <input type="submit" value="Login">
+        </form>
+    </body>
+</html>
+
